@@ -11,10 +11,11 @@
 
 body, html {
     background: var(--light-gray);
-    height: 100%;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 p, a {
@@ -51,8 +52,10 @@ h1 {
     left: 50%;
     transform: translate(-50%);
     bottom: 0;
+    width: 100%;
 }
 
 .attribution p {
+    margin-top: -10px;
     color: var(--dark-blue);
 }
